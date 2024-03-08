@@ -1,6 +1,6 @@
 # react-router-with-query
 
-- 把query string解析为对象，注入到props上，方便访问
+- 把query string解析为对象，注入到props上
 
 ## 使用方式
 
