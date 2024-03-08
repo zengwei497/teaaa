@@ -1,16 +1,16 @@
-const objectToQuery = function (param, key, encode) {
-  if (param == null) return '';
-  var paramStr = '';
-  var t = typeof (param);
+const objectToQuery = function (p_am, key, en_code) {
+  if (p_am == null) return '';
+  var param_Str = '';
+  var t = typeof (p_am);
   if (t == 'string' || t == 'number' || t == 'boolean') {
-    paramStr += '&' + key + '=' + ((encode == null || encode) ? encodeURIComponent(param) : param);
+    param_Str += '&' + key + '=' + ((en_code == null || en_code) ? encodeURIComponent(p_am) : p_am);
   } else {
-    for (var i in param) {
-      var k = key == null ? i : key + (param instanceof Array ? '[' + i + ']' : '.' + i);
-      paramStr += objectToQuery(param[i], k, encode);
+    for (var i in p_am) {
+      var k = key == null ? i : key + (p_am instanceof Array ? '[' + i + ']' : '.' + i);
+      param_Str += objectToQuery(p_am[i], k, en_code);
     }
   }
-  return paramStr;
+  return param_Str;
 };
 
 export default objectToQuery

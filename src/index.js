@@ -1,4 +1,4 @@
-import withQuery from "./withQuery.js";
-import objectToQuery from "./objectToQuery.js"
+import Query from "./withQuery.js";
+import objQuery from "./objectToQuery.js"
 
-export { withQuery, objectToQuery }
+export { Query, objQuery }
