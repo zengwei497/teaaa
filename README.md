@@ -1,4 +1,4 @@
-# react-router-with-query
+# teaaa
 
 - 把query string解析为对象，注入到props上
 
@@ -7,14 +7,14 @@
 ### 1.安装
 
 ```
-yarn add react-router-with-query
+yarn add teaaa
 
 ```
 
 ### 2.引入
 
 ```
-import withQuery from 'react-router-with-query'
+import withQuery from 'teaaa'
 
 ...
 

@@ -1,11 +1,11 @@
 {
-  "name": "react-router-with-query",
+  "name": "git",
   "version": "1.1.2",
   "description": "Parse query string to object and inject to component props,把查询字符串解析为对象，注入到props里",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lixuejiang/react-router-with-query.git"
+    "url": "git+https://github.com/lixuejiang/react-router-with-query.git"
   },
   "scripts": {
     "compile": "NODE_ENV=production babel src -d lib",
@@ -30,48 +30,10 @@
     "watchify": "^3.11.1"
   },
   "dependencies": {
-    "babel-preset-react-app": "^3.1.1",
-    "JSONStream": {
-      "version": "1.3.1",
-      "resolved": "https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.1.tgz",
-      "integrity": "sha1-cH92HgHa6eFvG8+TcDt4xwlmV5o=",
-      "dev": true,
-      "requires": {
-        "jsonparse": "^1.2.0",
-        "through": ">=2.2.7 <3"
-      }
-    },
-    "acorn": {
-      "version": "4.0.13",
-      "resolved": "https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz",
-      "integrity": "sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c=",
-      "dev": true
-    },
-    "acorn-dynamic-import": {
-      "version": "4.0.0",
-      "resolved": "https://registry.npmjs.org/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz",
-      "integrity": "sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==",
-      "dev": true
-    },
-    "acorn-node": {
-      "version": "1.7.0",
-      "resolved": "https://registry.npmjs.org/acorn-node/-/acorn-node-1.7.0.tgz",
-      "integrity": "sha512-XhahLSsCB6X6CJbe+uNu3Mn9sJBNFxtBN9NLgAOQovfS6Kh0lDUtmlclhjn9CvEK7A7YyRU13PXlNcpSiLI9Yw==",
-      "dev": true,
-      "requires": {
-        "acorn": "^6.1.1",
-        "acorn-dynamic-import": "^4.0.0",
-        "acorn-walk": "^6.1.1",
-        "xtend": "^4.0.1"
-      },
-      "dependencies": {
-        "acorn": {
-          "version": "6.2.0",
-          "resolved": "https://registry.npmjs.org/acorn/-/acorn-6.2.0.tgz",
-          "integrity": "sha512-8oe72N3WPMjA+2zVG71Ia0nXZ8DpQH+QyyHO+p06jT8eg8FGG3FbcUIi8KziHlAfheJQZeoqbvq1mQSQHXKYLw==",
-          "dev": true
-        }
-      }
-    }
-  }
+    "babel-preset-react-app": "^3.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/lixuejiang/react-router-with-query/issues"
+  },
+  "homepage": "https://github.com/lixuejiang/react-router-with-query#readme"
 }
